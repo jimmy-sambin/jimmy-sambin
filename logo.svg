@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Logo Jimmy Sambin">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)" stroke="#334155" stroke-width="4"/>
+
+  <!-- Outer circuit ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.3"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2" stroke-dasharray="12 8"/>
+
+  <!-- Hexagonal shield -->
+  <path d="M256 86 L386 161 L386 311 L256 386 L126 311 L126 161 Z" fill="none" stroke="url(#shieldGrad)" stroke-width="8" filter="url(#glow)"/>
+  <path d="M256 110 L362 171 L362 299 L256 360 L150 299 L150 171 Z" fill="#0b1220" stroke="#60a5fa" stroke-width="2" opacity="0.9"/>
+
+  <!-- Inner shield form -->
+  <path d="M256 140 L330 185 L330 285 L256 330 L182 285 L182 185 Z" fill="url(#shieldGrad)" opacity="0.15"/>
+  <path d="M256 140 L330 185 L330 285 L256 330 L182 285 L182 185 Z" fill="none" stroke="#22d3ee" stroke-width="2"/>
+
+  <!-- Central node -->
+  <circle cx="256" cy="236" r="42" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/>
+  <circle cx="256" cy="236" r="20" fill="#22d3ee" opacity="0.8"/>
+
+  <!-- Circuit traces -->
+  <path d="M256 194 L256 150" stroke="#22d3ee" stroke-width="3"/>
+  <path d="M256 278 L256 322" stroke="#22d3ee" stroke-width="3"/>
+  <path d="M214 236 L182 236" stroke="#22d3ee" stroke-width="3"/>
+  <path d="M298 236 L330 236" stroke="#22d3ee" stroke-width="3"/>
+
+  <!-- Secondary nodes -->
+  <circle cx="256" cy="150" r="6" fill="#60a5fa"/>
+  <circle cx="256" cy="322" r="6" fill="#60a5fa"/>
+  <circle cx="182" cy="236" r="6" fill="#60a5fa"/>
+  <circle cx="330" cy="236" r="6" fill="#60a5fa"/>
+
+  <!-- OT / industrial motifs -->
+  <path d="M210 292 L230 292 L230 308 L210 308 Z" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M282 292 L302 292 L302 308 L282 308 Z" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M230 300 L282 300" stroke="#22d3ee" stroke-width="2"/>
+
+  <!-- JS initials -->
+  <text x="256" y="384" text-anchor="middle" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="#f8fafc" letter-spacing="4">JS</text>
+</svg>

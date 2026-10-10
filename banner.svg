@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Bandeau GitHub Jimmy Sambin">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="420" fill="url(#bannerBg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.08">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+  </g>
+
+  <!-- Circuit lines -->
+  <g stroke="#22d3ee" stroke-width="2" opacity="0.15" fill="none">
+    <path d="M0 300 L200 300 L240 260 L400 260"/>
+    <path d="M1280 120 L1080 120 L1040 160 L880 160"/>
+    <path d="M100 420 L100 340 L140 300 L140 200"/>
+    <path d="M1180 0 L1180 80 L1140 120 L1140 220"/>
+  </g>
+
+  <!-- Accent diagonal stripe -->
+  <path d="M-50 420 L300 0 L420 0 L70 420 Z" fill="#06b6d4" opacity="0.06"/>
+  <path d="M1000 420 L1250 180 L1280 180 L1280 220 L1080 420 Z" fill="#3b82f6" opacity="0.05"/>
+
+  <!-- Left content -->
+  <text x="80" y="130" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="900" fill="#f8fafc" letter-spacing="2">Jimmy SAMBIN</text>
+
+  <text x="80" y="185" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#22d3ee">RSI &amp; Numérique · Cybersécurité · IA appliquée · GTB/OT</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="215" x2="400" y2="215" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tagline -->
+  <text x="80" y="260" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94a3b8" font-style="italic">
+    Ingénierie · MLOps · IA appliquée · Data/OT
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(80, 300)">
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="70" y="24" text-anchor="middle" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="14" font-weight="600" fill="#22d3ee">Cybersecurity</text>
+
+    <rect x="160" y="0" width="140" height="36" rx="18" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="230" y="24" text-anchor="middle" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="14" font-weight="600" fill="#22d3ee">Applied AI</text>
+
+    <rect x="320" y="0" width="100" height="36" rx="18" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="370" y="24" text-anchor="middle" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="14" font-weight="600" fill="#22d3ee">GTB/OT</text>
+
+    <rect x="440" y="0" width="110" height="36" rx="18" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="495" y="24" text-anchor="middle" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="14" font-weight="600" fill="#22d3ee">Python/R</text>
+  </g>
+
+  <!-- Social links -->
+  <g transform="translate(80, 360)">
+    <text font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-size="16" fill="#64748b">
+      <tspan x="0" y="0">github.com/jimmy-sambin</tspan>
+      <tspan x="230" y="0">·</tspan>
+      <tspan x="260" y="0">linkedin.com/in/sambin-jimmy-rsi</tspan>
+    </text>
+  </g>
+
+  <!-- Right side logo icon -->
+  <g transform="translate(980, 70) scale(0.65)">
+    <circle cx="256" cy="256" r="240" fill="#0f172a" stroke="#334155" stroke-width="4"/>
+    <circle cx="256" cy="256" r="210" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.3"/>
+    <path d="M256 86 L386 161 L386 311 L256 386 L126 311 L126 161 Z" fill="none" stroke="url(#accentGrad)" stroke-width="8" filter="url(#softGlow)"/>
+    <path d="M256 110 L362 171 L362 299 L256 360 L150 299 L150 171 Z" fill="#0b1220" stroke="#60a5fa" stroke-width="2" opacity="0.9"/>
+    <path d="M256 140 L330 185 L330 285 L256 330 L182 285 L182 185 Z" fill="url(#accentGrad)" opacity="0.15"/>
+    <path d="M256 140 L330 185 L330 285 L256 330 L182 285 L182 185 Z" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="256" cy="236" r="42" fill="#0f172a" stroke="#22d3ee" stroke-width="4"/>
+    <circle cx="256" cy="236" r="20" fill="#22d3ee" opacity="0.8"/>
+    <path d="M256 194 L256 150 M256 278 L256 322 M214 236 L182 236 M298 236 L330 236" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="256" cy="150" r="6" fill="#60a5fa"/>
+    <circle cx="256" cy="322" r="6" fill="#60a5fa"/>
+    <circle cx="182" cy="236" r="6" fill="#60a5fa"/>
+    <circle cx="330" cy="236" r="6" fill="#60a5fa"/>
+    <text x="256" y="384" text-anchor="middle" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="#f8fafc" letter-spacing="4">JS</text>
+  </g>
+</svg>
