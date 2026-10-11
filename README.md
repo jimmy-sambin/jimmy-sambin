@@ -34,8 +34,8 @@ Passionné par la fiabilité des infrastructures critiques, j'aime transformer l
 | Projet | Description | Langage / Stack |
 |--------|-------------|-----------------|
 | [<strong>ML-PANNES-CVC</strong>](https://github.com/jimmy-sambin/ML-PANNES-CVC) | Prédiction des pannes CVC par moteur d'apprentissage Random Forest | Python, scikit-learn, pandas |
-| [<strong>SOC-AUTONOME-DEEPAGENTS</strong>](https://github.com/jimmy-sambin/SOC-AUTONOME-DEEPAGENTS) | SOC autonome multi-agents : triage, investigation, corr
-| [<strong>ML-CHURN-TELCO</strong>](https://github.com/jimmy-sambin/ML-CHURN-TELCO) | Prediction du churn client telecom (dataset IBM Telco, Kaggle 2023) par moteur XGBoost - accuracy 75,1 %, AUC 0,835 | Python, pandas, scikit-learn, XGBoost |élation et réponse assistée par IA | Python, LangGraph, DeepAgents, n8n |
+| [<strong>SOC-AUTONOME-DEEPAGENTS</strong>](https://github.com/jimmy-sambin/SOC-AUTONOME-DEEPAGENTS) | SOC autonome multi-agents : triage, investigation, corrélation et réponse assistée par IA | Python, LangGraph, DeepAgents, n8n |
+| [<strong>ML-CHURN-TELCO</strong>](https://github.com/jimmy-sambin/ML-CHURN-TELCO) | Prediction du churn client telecom (dataset IBM Telco, Kaggle 2023) par moteur XGBoost - accuracy 75,1 %, AUC 0,835 | Python, pandas, scikit-learn, XGBoost |
 
 *<i>D'autres projets autour du RAG, de la cybersécurité et de la supervision GTB arrivent prochainement.</i>*
 
