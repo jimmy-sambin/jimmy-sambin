@@ -34,6 +34,7 @@ Passionné par la fiabilité des infrastructures critiques, j'aime transformer l
 | Projet | Description | Langage / Stack |
 |--------|-------------|-----------------|
 | [<strong>ML-PANNES-CVC</strong>](https://github.com/jimmy-sambin/ML-PANNES-CVC) | Prédiction des pannes CVC par moteur d'apprentissage Random Forest | Python, scikit-learn, pandas |
+| [<strong>SOC-AUTONOME-DEEPAGENTS</strong>](https://github.com/jimmy-sambin/SOC-AUTONOME-DEEPAGENTS) | SOC autonome multi-agents : triage, investigation, corrélation et réponse assistée par IA | Python, LangGraph, DeepAgents, n8n |
 
 *<i>D'autres projets autour du RAG, de la cybersécurité et de la supervision GTB arrivent prochainement.</i>*
 
