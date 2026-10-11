@@ -43,8 +43,8 @@ Passionné par la fiabilité des infrastructures critiques, j'aime transformer l
 ## 📊 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jimmy-sambin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Statistiques GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmy-sambin&layout=compact&theme=tokyonight&hide_border=true" alt="Langages les plus utilisés" />
+  <img src="github-stats.svg" alt="Statistiques GitHub" />
+  <img src="github-top-langs.svg" alt="Langages les plus utilisés" />
 </p>
 
 ---
