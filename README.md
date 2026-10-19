@@ -32,9 +32,7 @@
 
 ## 👋 Bonjour, je suis Jimmy Sambin
 
-Ingénieur, je conjugue **systèmes d'information**, **cybersécurité**, **intelligence artificielle appliquée** et **opération technologique** (GTB/BACnet/KNX/OT).
-
-Passionné par la fiabilité des infrastructures critiques, j'aime transformer les données opérationnelles en décisions actionnables — de la maintenance prédictive CVC à la supervision des bâtiments intelligents.
+Ingénieur, je conjugue **systèmes d'information**, **cybersécurité**, **intelligence artificielle appliquée** et **opération technologique** (GTB/BACnet/KNX/OT). Passionné par la fiabilité des infrastructures critiques, j'aime transformer les données opérationnelles en décisions actionnables — de la maintenance prédictive CVC à la supervision des bâtiments intelligents.
 
 ---
 
