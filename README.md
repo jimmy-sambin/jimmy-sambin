@@ -28,5 +28,5 @@ Projet	Description	Langage / Stack
 🐙 GitHub
 🤗 Hugging Face
 📧 j.sambin@gmail.com
-📍 Les Abymes, Guadeloupe — ouvert aux échanges sur les territoires et les infrastructures critiques
+📍 Ouvert aux échanges sur les territoires et les infrastructures critiques
 <p align="center"> <img src="logo.png" alt="Logo Jimmy Sambin" width="120" /> </p>
