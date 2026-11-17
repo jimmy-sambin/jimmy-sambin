@@ -53,6 +53,7 @@ Ingénieur, je conjugue **systèmes d'information**, **cybersécurité**, **inte
 | [<strong>ML-PANNES-CVC</strong>](https://github.com/jimmy-sambin/ML-PANNES-CVC) | Prédiction des pannes CVC par moteur d'apprentissage Random Forest | Python, scikit-learn, pandas |
 | [<strong>SOC-AUTONOME-DEEPAGENTS</strong>](https://github.com/jimmy-sambin/SOC-AUTONOME-DEEPAGENTS) | SOC autonome multi-agents : triage, investigation, corrélation et réponse assistée par IA | Python, LangGraph, DeepAgents, n8n |
 | [<strong>ML-CHURN-TELCO</strong>](https://github.com/jimmy-sambin/ML-CHURN-TELCO) | Prédiction du churn client telecom (dataset IBM Telco, Kaggle 2023) par moteur XGBoost — **AUC 0,835** · accuracy 75,1 % (baseline naïve 73,5 %) | Python, pandas, scikit-learn, XGBoost |
+| [<strong>KAGGLE-CYBERGUARD-2026</strong>](https://github.com/jimmy-sambin/KAGGLE-CYBERGUARD-2026) | Détection d'intrusions réseau (hackathon Kaggle) par moteur XGBoost — **Macro F1 OOF 0,9934** + analyse critique du dataset (annonce vs données, test piégé) | Python, pandas, scikit-learn, XGBoost |
 
 *<i>D'autres projets autour du RAG, de la cybersécurité et de la supervision GTB arrivent prochainement.</i>*
 
